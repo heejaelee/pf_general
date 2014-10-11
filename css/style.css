@@ -1,0 +1,179 @@
+/***** Created by Heejae Lee *****/
+/***** General Setting Starts *****/
+body{
+	font-family: 'Montserrat', sans-serif, Arial;
+	font-size:87.5%;
+	color:#424242;
+	line-height: 1.5;
+	overflow: hidden;
+}
+
+.body{
+	width:100%;
+	margin:0 auto;
+}
+/***** General Setting Ends *****/
+
+
+
+/***** CoverContainer Starts *****/
+#coverContainer{
+	position:relative;
+}
+
+#coverContainer .overlay{
+	position: absolute;
+	background-color: #424242;
+	width: 100%; height: 100%;
+	opacity:0.3;
+	z-index: 0;
+}
+
+#coverContainer #mainText{
+	position:absolute;
+	width:30%;
+	font-family: 'Short Stack', cursive, sans-serif,verdana;
+	font-size:180%;
+	margin-top:20%;
+	margin-left:5%;
+	display:none;
+}
+
+#coverContainer #brain{
+	position:absolute;
+	width:20%;
+	margin-top:16%;
+	margin-left:70%;
+	display: none;
+}
+
+#coverContainer #bgvid{
+	width:100%;
+	height:80%;
+	background: url("../img/bg.jpg") no-repeat;
+	background-size: cover;
+}
+/*
+#coverContainer .bar{
+	position: absolute;
+	display: block;
+	width:100%;
+	height:100px;
+	background-color: #000;
+	margin-top:-100px;
+	margin-right:199px;
+	z-index: 200;
+}
+
+#coverContainer .bar img{
+	position: absolute;
+	width:5%;
+	height:auto;
+	margin-left:95%;
+	z-index: 200;
+}
+*/
+/***** CoverContainer Ends *****/
+
+
+/***** MenuContainer Starts *****/
+header{
+	width: 100%;
+	z-index: 200;
+}
+
+#menuContainer{
+	position: relative;
+	width:100%;
+	height:70px;
+	display:block;
+	background-color: #000;
+}
+
+#menuContainer a{
+	text-decoration: none;
+}
+
+#menuContainer h2 a:link,
+#menuContainer h2 a:hover,
+#menuContainer h2 a:visited,
+#menuContainer h2 a:focus,{
+	color:#fff;
+}
+
+#menuContainer nav a:link, #menuContainer a:visited{
+	color:#fff;
+}
+
+#menuContainer nav a:hover{
+	color:#DE0404;
+	font-size:130%;	
+}
+
+#menuContainer h2{
+	font-size:250%;
+	padding:10px;
+	color:#fff;
+	float:left;
+}
+
+#menuContainer nav ul{
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+
+#menuContainer nav ul li{
+	float:left;
+	display:inline;
+	padding:20px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	width:60px;
+	height:20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#menuContainer nav ul li .last_menu{
+	margin-right:20px;
+}
+
+.clr{
+	clear:both;
+}
+/***** MenuContainer Ends *****/
+
+
+
+/***** MainContainer Starts *****/
+#mainContainer{
+	position:absolute;
+	background:url(../img/bg.png);
+	z-index: -300;
+	width:100%;
+	overflow: hidden;
+}
+
+#mainContainer .content{
+	margin-top: 5%;
+	text-align: center;
+}
+
+#mainContainer .content .mainContent{
+	width:60%;
+	margin:0 auto;
+}
+
+#mainContainer .content .mainContent h2{
+	font-size:360%;
+}
+
+#mainContainer .content .mainContent p{
+	margin-top:3%;
+	font-size:200%;
+}
+/***** MainContainer Ends *****/

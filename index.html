@@ -14,6 +14,14 @@
         	$(document).ready(function(){
         		$('#mainText').delay(4000).fadeIn(3000);
         		$('#brain').delay(7000).fadeIn(3000);
+
+        		$('#about').click(function(){
+        			$('#coverContainer').animate({
+        				opacity:0.5,
+        				top:"-500",
+        			},3000,function(){
+        			});
+        		});
         	});
         </script>
 </head>
@@ -29,6 +37,28 @@
 			<source src="vid/wine_1280.mp4" type="video/mp4"></source>
 			Your browser does not support the video tag.
 		</video>
+
+		<article class="mainContent">
+				<a name="about"></a>
+				<h2>About Me</h2>
+				<p style="color:#7D006A">My name is Heejae(Jay) Lee and I've been working as a Web Content Developer for about 2 years, and I have gained extensive experiences in HTML, CSS and JavaScript as well as banner and ad design using both Flash and Photoshop.</p>
+				<br />
+				<p style="color:#4F8FE8">I have a range of interest within HTML5 &amp; Responsive Web Design and I love learning something new every day and that’s what keeps me motivated and progressing my skills. </p>
+				<br />
+				<p style="color:orange">I am primarily a front-end developer, however I have intermediate knowledge of Photoshop, Illustrator, PHP and MySQL. I can use GIT as a version control system.</p>
+				<p style="color:#A6A6A6"><span style="color:#E35B5B">Key Techniques -</span> HTML5 / CSS3 / Javascript / jQuery / Media Query / Responsive Website / SQL / Dreamweaver / Photoshop / Illustrator / Flash / Bootstrap / Google Fonts API /
+				</p>
+				<hr>
+				<div><a name="port"></a></div>
+				<h2>Portfolio</h2>
+				<p style="color:#7D006A">My name is Heejae(Jay) Lee and I've been working as a Web Content Developer for about 2 years, and I have gained extensive experiences in HTML, CSS and JavaScript as well as banner and ad design using both Flash and Photoshop.</p>
+				<br />
+				<p style="color:#4F8FE8">I have a range of interest within HTML5 &amp; Responsive Web Design and I love learning something new every day and that’s what keeps me motivated and progressing my skills. </p>
+				<br />
+				<p style="color:orange">I am primarily a front-end developer, however I have intermediate knowledge of Photoshop, Illustrator, PHP and MySQL. I can use GIT as a version control system.</p>
+				<p style="color:#A6A6A6"><span style="color:#E35B5B">Key Techniques -</span> HTML5 / CSS3 / Javascript / jQuery / Media Query / Responsive Website / SQL / Dreamweaver / Photoshop / Illustrator / Flash / Bootstrap / Google Fonts API /
+				</p>
+			</article>
 		<!--
 		<div class="bar">
 			<a href="#navigation"><img src="img/d-arrow.png"></a>
@@ -37,12 +67,11 @@
 	</div>
 	<header>
 		<div id="menuContainer">
-			<a name="navigation"></a>
 			<h2><a href="#">Jay's Portfolio</a></h2>
 			<nav>
 				<ul>
 					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
+					<li><a id="about" href="#">About</a></li>
 					<li><a href="#port">Portfolio</a></li>
 					<li><a href="" class="last_menu">Contact</a></li>
 				</ul>
@@ -53,6 +82,7 @@
 	<div id="mainContainer">
 		<section class="content">
 			<article class="mainContent">
+				<a name="about"></a>
 				<h2>About Me</h2>
 				<p style="color:#7D006A">My name is Heejae(Jay) Lee and I've been working as a Web Content Developer for about 2 years, and I have gained extensive experiences in HTML, CSS and JavaScript as well as banner and ad design using both Flash and Photoshop.</p>
 				<br />
@@ -61,7 +91,7 @@
 				<p style="color:orange">I am primarily a front-end developer, however I have intermediate knowledge of Photoshop, Illustrator, PHP and MySQL. I can use GIT as a version control system.</p>
 				<p style="color:#A6A6A6"><span style="color:#E35B5B">Key Techniques -</span> HTML5 / CSS3 / Javascript / jQuery / Media Query / Responsive Website / SQL / Dreamweaver / Photoshop / Illustrator / Flash / Bootstrap / Google Fonts API /
 				</p>
-
+				<hr>
 				<div><a name="port"></a></div>
 				<h2>Portfolio</h2>
 				<p style="color:#7D006A">My name is Heejae(Jay) Lee and I've been working as a Web Content Developer for about 2 years, and I have gained extensive experiences in HTML, CSS and JavaScript as well as banner and ad design using both Flash and Photoshop.</p>
